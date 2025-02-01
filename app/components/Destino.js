@@ -4,11 +4,11 @@ import { useState } from "react";
 import ImagenDestino from "./ImagenDestino";
 import "../styles/destino.css";
 import "../styles/components.css";
-import boston from "../img/boston.jpeg";
-import buenosaires from "../img/buenosaires.jpeg";
-import praga from "../img/praga.jpeg";
-import sydney from "../img/sydney.jpeg";
-import tokio from "../img/tokio.webp";
+import boston from "../../public/img/boston.jpeg";
+import buenosaires from "../../public/img/buenosaires.jpeg";
+import praga from "../../public/img/praga.jpeg";
+import sydney from "../../public/img/sydney.jpeg";
+import tokio from "../../public/img/tokio.webp";
 
 export default function Destino() {
   const [selectedImage, setSelectedImage] = useState(boston.src);

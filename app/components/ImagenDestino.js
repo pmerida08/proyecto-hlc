@@ -3,11 +3,11 @@
 import "../styles/components.css";
 import "../styles/imgdestino.css";
 import Image from "next/image";
-import boston from "../img/boston.jpeg";
-import buenosaires from "../img/buenosaires.jpeg";
-import praga from "../img/praga.jpeg";
-import sydney from "../img/sydney.jpeg";
-import tokio from "../img/tokio.webp";
+import boston from "../../public/img/boston.jpeg";
+import buenosaires from "../../public/img/buenosaires.jpeg";
+import praga from "../../public/img/praga.jpeg";
+import sydney from "../../public/img/sydney.jpeg";
+import tokio from "../../public/img/tokio.webp";
 
 const images = [boston, buenosaires, praga, sydney, tokio];
 
