@@ -1,0 +1,15 @@
+#fires {
+  display: inline-block;
+    padding: 1rem 0;
+}
+
+#fireCounter {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+}
+
+#btnCuentaFuegos {
+  padding: 0.5rem;
+  cursor: pointer;
+}

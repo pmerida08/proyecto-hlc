@@ -1,0 +1,18 @@
+#btnToggle {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.estadoToggle{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: #ff0000;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+

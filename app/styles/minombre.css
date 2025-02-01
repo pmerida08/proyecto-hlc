@@ -1,0 +1,10 @@
+#miNombreDiv {
+  padding: "1rem";
+  margin: "1rem";
+  border-radius: "1rem";
+  transition: "background-color 0.3s ease-in-out";
+}
+
+.nombre {
+    transition: "color 0.3s ease-in-out";
+}
