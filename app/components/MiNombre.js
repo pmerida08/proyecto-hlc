@@ -11,10 +11,7 @@ class Color {
   }
 }
 
-export default function MiNombre() {
-  const name = "Pablo";
-  const surname = "Merida Velasco";
-  const instagram = "https://www.instagram.com/pablomerida_/";
+export default function MiNombre({name, surname, instagram}) {
 
   const [colorText, setColorText] = useState("black");
   const [colorBackground, setColorBackground] = useState("white");

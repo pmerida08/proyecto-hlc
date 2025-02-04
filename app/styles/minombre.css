@@ -3,6 +3,7 @@
   margin: "1rem";
   border-radius: "1rem";
   transition: "background-color 0.3s ease-in-out";
+  flex: 1;
 }
 
 .nombre {

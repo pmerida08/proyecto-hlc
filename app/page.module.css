@@ -1,10 +1,23 @@
 .main {
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
   padding: 6rem;
   min-height: 100vh;
 }
-
+#groupMiNombre{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0.5rem;
+  width: 100%;
+}
+#groupHoli{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .description {
   display: inherit;
   justify-content: inherit;
