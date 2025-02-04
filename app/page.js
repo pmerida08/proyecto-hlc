@@ -23,6 +23,8 @@ export default function Home() {
       <Contando />
       <div id={styles.groupHoli}>
         <Holi nombre="Pablo" />
+        <Holi nombre="Javier" />
+        <Holi nombre="Héctor" />
         <Holi />
       </div>
       {/* <DespliegueEnViernes /> */}
