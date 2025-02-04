@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import styles from "../styles/minombre.css";
-import "../styles/components.css";
 
 class Color {
   static generateColor() {
@@ -25,14 +23,14 @@ export default function MiNombre({name, surname, instagram}) {
     <div id="miNombreDiv" className="component" style={{ backgroundColor: colorBackground }}>
       <h2>Componente MiNombre</h2>
       <h3
-        className={styles.nombre}
+        className="nombre"
         onMouseEnter={handleMouseEnter}
         style={{ color: colorText }}
       >
         Mi nombre es {name} {surname}
       </h3>
       <a
-        className={styles.nombre}
+        className="nombre"
         onMouseEnter={handleMouseEnter}
         href={instagram}
         style={{ color: colorText }}

@@ -1,7 +1,5 @@
 'use client';
 import { useState } from "react";
-import "../styles/components.css";
-import "../styles/contando.css";
 
 const Button = ({ increment, onClick }) => {
   const handleClick = () => {

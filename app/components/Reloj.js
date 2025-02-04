@@ -1,7 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import "../styles/components.css";
-import "../styles/reloj.css";
 
 export default function Reloj() {
   const [time, setTime] = useState("");

@@ -1,7 +1,5 @@
 "use client";
 
-import "../styles/components.css";
-import "../styles/imgdestino.css";
 import Image from "next/image";
 import boston from "../../public/img/boston.jpeg";
 import buenosaires from "../../public/img/buenosaires.jpeg";

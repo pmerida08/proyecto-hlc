@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import "../styles/components.css";
-import "../styles/holi.css";
 
 export default function Holi({ nombre }) {
   return (

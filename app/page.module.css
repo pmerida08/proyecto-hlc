@@ -1,9 +1,13 @@
+#header{
+  padding: 2vh 2vw;
+  text-align: center;
+}
 .main {
   justify-content: space-between;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 6rem;
+  padding: 2rem 6rem;
   min-height: 100vh;
 }
 #groupMiNombre{

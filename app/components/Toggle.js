@@ -1,7 +1,5 @@
 'use client';
 import { useState } from "react";
-import "../styles/components.css";
-import "../styles/toggle.css";
 
 export default function Toggle() {
   const [encendido, setEncendido] = useState(false);

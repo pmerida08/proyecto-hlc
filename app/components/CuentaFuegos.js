@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import "../styles/components.css";
-import "../styles/cuentafuegos.css";
 
 export default function CuentaFuegos() {
   const [contador, setContador] = useState([]);

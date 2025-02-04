@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import "../styles/components.css";
-import "../styles/cliqueando.css";
 
 export default function Cliqueando() {
   const [contador, setContador] = useState(0);

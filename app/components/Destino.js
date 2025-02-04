@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import ImagenDestino from "./ImagenDestino";
-import "../styles/destino.css";
-import "../styles/components.css";
 import boston from "../../public/img/boston.jpeg";
 import buenosaires from "../../public/img/buenosaires.jpeg";
 import praga from "../../public/img/praga.jpeg";
