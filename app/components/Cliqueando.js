@@ -38,7 +38,7 @@ export default function Cliqueando() {
           : contador === 1
           ? "Has clicado 1 vez"
           : `Has clicado ${contador} veces`}
-      </p>
+      </p>  
     </div>
   );
 }
