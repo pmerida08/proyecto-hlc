@@ -21,6 +21,7 @@ export default function Toggle() {
         {encendido ? "Apagar" : "Encender"}
       </button>
       <span className="estadoToggle" id="apagado">{encendido ? "ON" : "OFF"}</span>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/Toggle.js">Enlace al repositorio</a>
     </div>
   );
 }

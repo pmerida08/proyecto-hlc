@@ -35,6 +35,7 @@ export default function DespliegueEnViernes() {
         style={{ color: despliegue(text) }}
       />
       <div>{url()}</div>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/DespliegueEnViernes.js">Enlace al repositorio</a>
     </div>
   );
 }

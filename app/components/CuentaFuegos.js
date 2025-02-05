@@ -21,6 +21,7 @@ export default function CuentaFuegos() {
           </div>
         ))}
       </div>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/CuentaFuegos.js">Enlace al repositorio</a>
     </div>
   );
 }

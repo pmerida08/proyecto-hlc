@@ -48,6 +48,7 @@ export default function Destino() {
       <div>
         <ImagenCiudad selectedImage={selectedImage} />
       </div>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/Destino.js">Enlace al repositorio</a>
     </div>
   );
 }

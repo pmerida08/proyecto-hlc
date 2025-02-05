@@ -22,6 +22,7 @@ export default function Reloj() {
       <h2>Componente Reloj</h2>
       <h3>Fecha: {date || "Cargando..."}</h3>
       <h3>Hora: {time || "Cargando..."}</h3>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/Reloj.js">Enlace al repositorio</a>
     </div>
   );
 }

@@ -38,7 +38,8 @@ export default function Cliqueando() {
           : contador === 1
           ? "Has clicado 1 vez"
           : `Has clicado ${contador} veces`}
-      </p>  
+      </p>
+      <a href="https://github.com/iesgrancapitan-hlc/listado-de-componentes-con-next-js-javierrm11/blob/main/proyecto/app/components/Cliqueando.js">Enlace al repositorio</a>
     </div>
   );
 }
