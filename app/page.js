@@ -5,9 +5,9 @@ import Toggle from "./components/Toggle";
 import Cliqueando from "./components/Cliqueando";
 import Contando from "./components/Contando";
 import Holi from "./components/Holi";
-// import DespliegueEnViernes from "./components/DespliegueEnViernes";
+import DespliegueEnViernes from "./components/DespliegueEnViernes";
 import Destino from "./components/Destino";
-import { ImagenesDestino } from "./components/ImagenDestino";
+import { ImagenesCiudades } from "./components/ImagenCiudades";
 import Reloj from "./components/Reloj";
 import CuentaFuegos from "./components/CuentaFuegos";
 import Header from "./components/Header";
@@ -31,10 +31,10 @@ export default function Home() {
           <Holi nombre="Héctor" />
           <Holi />
         </div>
-        {/* <DespliegueEnViernes /> */}
+        <DespliegueEnViernes />
         <CuentaFuegos />
         <Destino />
-        <ImagenesDestino />
+        <ImagenesCiudades />
         <Reloj />
     </main>
     </>

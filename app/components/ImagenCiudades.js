@@ -9,10 +9,10 @@ import tokio from "../../public/img/tokio.webp";
 
 const images = [boston, buenosaires, praga, sydney, tokio];
 
-export function ImagenesDestino() {
+export function ImagenesCiudades() {
   return (
     <div className="component">
-      <h2>Componente ImagenDestino</h2>
+      <h2>Componente ImagenCiudades</h2>
       {images.map((imagen, index) => (
         <Image
           id="imagenDestino"
@@ -27,7 +27,7 @@ export function ImagenesDestino() {
   );
 }
 
-export default function ImagenDestino({ selectedImage }) {
+export default function ImagenCiudad({ selectedImage }) {
   return (
     <div>
       <Image src={selectedImage} width="150" height="150" alt="Destino" />

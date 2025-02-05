@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import ImagenDestino from "./ImagenDestino";
+import ImagenCiudad from "./ImagenCiudades";
 import boston from "../../public/img/boston.jpeg";
 import buenosaires from "../../public/img/buenosaires.jpeg";
 import praga from "../../public/img/praga.jpeg";
@@ -46,7 +46,7 @@ export default function Destino() {
         <option value="tokio">Tokio</option>
       </select>
       <div>
-        <ImagenDestino selectedImage={selectedImage} />
+        <ImagenCiudad selectedImage={selectedImage} />
       </div>
     </div>
   );
