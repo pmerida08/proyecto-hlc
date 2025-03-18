@@ -1,3 +1,7 @@
+# Componentes React
+
+Este proyecto consiste en una lista de componentes en las que se ven varios componentes básicos para aprender React
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
